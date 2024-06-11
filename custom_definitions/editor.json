@@ -1,0 +1,17 @@
+[
+  {
+    "id": "editor",
+    "image": "https://github.com/JT992/clocktower-experimental-icons/blob/main/icons/editor.png?raw=true",
+    "edition": "custom",
+    "firstNight": 0,
+    "otherNight": 1,
+    "otherNightReminder": "If a player left the game today, place the Edited Out token next to them. You gain their ability.",
+    "reminders": [
+      "Edited out"
+    ],
+    "setup": true,
+    "name": "Editor",
+    "team": "fabled",
+    "ability": "When a player leaves the game, the Storyteller gains their ability until they die."
+  }
+]
