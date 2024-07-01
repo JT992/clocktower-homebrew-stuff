@@ -17,12 +17,14 @@ The Detective can identify people with something to hide, but is paranoid about 
 #### Examples
 
 > On the first night, the **Detective** chooses Oli, the [**Mezepheles**](https://wiki.bloodontheclocktower.com/Mezepheles),
-> and learns that he is a Minion.
-> The next night, they choose Ewan, the [**Shugenja**](https://wiki.bloodontheclocktower.com/Shugenja),
-> and learns (incorrectly) that he is a Demon.
+> and Ewan, the [**Shugenja**](https://wiki.bloodontheclocktower.com/Shugenja). They learn that one is a Minion.
 > The next night, they choose Mimi, the [**No Dashii**](https://wiki.bloodontheclocktower.com/No_Dashii),
-> and learns that she is a Demon.
-> The **Detective** does not wake up on any further nights, as they have selected a Minion, a Townsfolk, and a Demon.
+> and El, the [**Moonchild**](https://wiki.bloodontheclocktower.com/Moonchild). They learn that one is a Outsider.
+> The **Detective** does not wake up on any further nights, as they have selected a Townsfolk, Outsider, Minion and Demon.
+
+> The Detective selects the [**Ravenkeeper**](https://wiki.bloodontheclocktower.com/Ravenkeeper) and
+> [**Undertaker**](https://wiki.bloodontheclocktower.com/Undertaker). Both are Townsfolk, so the **Detective** is drunk
+> and learns (incorrectly) that one is a Demon.
 
 > It is the fourth night. So far, the Detective has learnt Outsider, Demon, Minion.
 > The Detective still wakes up, because they have chosen three Townsfolk.
