@@ -16,9 +16,12 @@ The Detective can identify people with something to hide, but is paranoid about 
 
 #### Examples
 
-> On the first night, the **Detective** chooses Oli, the **Mezepheles**, and learns that he is a Minion.
-> The next night, they choose Ewan, the **Shugenja**, and learns (incorrectly) that he is a Demon.
-> The next night, they choose Mimi, the **No Dashii**, and learns that she is a Demon.
+> On the first night, the **Detective** chooses Oli, the [**Mezepheles**](https://wiki.bloodontheclocktower.com/Mezepheles),
+> and learns that he is a Minion.
+> The next night, they choose Ewan, the [**Shugenja**](https://wiki.bloodontheclocktower.com/Shugenja),
+> and learns (incorrectly) that he is a Demon.
+> The next night, they choose Mimi, the [**No Dashii**](https://wiki.bloodontheclocktower.com/No_Dashii),
+> and learns that she is a Demon.
 > The **Detective** does not wake up on any further nights, as they have selected a Minion, a Townsfolk, and a Demon.
 
 > It is the fourth night. So far, the Detective has learnt Outsider, Demon, Minion.
@@ -38,11 +41,11 @@ The Blabbermouth flips true info and false info.
 
 #### Examples
 
-> On the first night, the **Blabbermouth** selects Robin, the **Empath**.
+> On the first night, the **Blabbermouth** selects Robin, the [**Empath**](https://wiki.bloodontheclocktower.com/Empath).
 > Robin is sat next to two evil players, but his information is now false, so he learns a 1.
 
-> There is a **Vortox** in play, so all Townsfolk information is false.
-> The **Barista**'s ability targets the **Undertaker**, so tonight they will instead learn true info.
+> There is a [**Vortox**](https://wiki.bloodontheclocktower.com/Vortox) in play, so all Townsfolk information is false.
+> The [**Barista**](https://wiki.bloodontheclocktower.com/Barista)'s ability targets the [**Undertaker**](https://wiki.bloodontheclocktower.com/Undertaker), so tonight they will instead learn true info.
 > However, the **Blabbermouth** then selects the **Undertaker** player, so they will now learn false info.
 
 ## Minions
@@ -53,15 +56,20 @@ The Blabbermouth flips true info and false info.
 
 The Chatterbox kills players who lie.
 
-- A Chatterbox death, like a Harpy death, occurs during the night, so is not an execution.
+- A Chatterbox death, like a [Harpy](https://wiki.bloodontheclocktower.com/Harpy) death, occurs during the night, so is not an execution.
 - A player chosen by the Chatterbox does not learn that they have been chosen.
 
 #### Examples
 
-> On the first, second, and third night, the **Chatterbox** selects Corry, the **Chef**, who learns that there is one pair of evil players.
+> On the first, second, and third night, the **Chatterbox** selects Corry, the [**Chef**](https://wiki.bloodontheclocktower.com/Chef), who learns that there is one pair of evil players.
 > During the first day, Corry does not claim any characters and does not share any information. They have not lied, so do not die that night.
-> During the second day, they say they are either the **Chambermaid**, the **Chef**, or the **Noble**. This is true (they are the Chef), so they do not die that night.
+> During the second day, they say they are either the [**Chambermaid**](https://wiki.bloodontheclocktower.com/Chambermaid), the **Chef**, or the [**Noble**](https://wiki.bloodontheclocktower.com/Noble). This is true (they are the **Chef**), so they do not die that night.
 > During the third day, they hard-claim the **Noble**. This is false, so tonight they might die.
+
+> The **Chatterbox** selects the [**Town Crier**](https://wiki.bloodontheclocktower.com/Town_Crier) player, who is drunk.
+> The **Town Crier** learns Yes, even though no Minions nominated today.
+> During the day, the **Town Crier** says they learnt Yes. This is true, so they don't die tonight.
+> If the **Town Crier** said that a Minion nominated last night, they would be lying, so they might have died in the night.
 
 ## Fabled
 
@@ -71,22 +79,22 @@ The Chatterbox kills players who lie.
 
 Use the Editor in a Teensyville game where some players have to travel, but doing so would be too powerful for the good team.
 
-- The Storyteller "gaining the ability" works similarly to the **Plague Doctor** in that they don't
-  become the alignment of the player who left, they don't become a player who can be targeted by abilities,
-  and they cannot vote or nominate.
+- The Storyteller "gaining the ability" works similarly to the [Plague Doctor](https://wiki.bloodontheclocktower.com/Plague_Doctor)
+  in that they don't become the alignment of the player who left, they don't become a player who can be
+  targeted by abilities, and they cannot vote or nominate.
 - The player who left does not die.
 - If the player who left dies, the Storyteller loses their ability.
 - In order to execute the player who left, the other players nominate _them_, not the Storyteller.
 
 #### Examples
 
-> On the first day of a five-player game, Jeremy (the **Cerenovus**) has to leave. Each night afterwards,
+> On the first day of a five-player game, Jeremy (the [**Cerenovus**](https://wiki.bloodontheclocktower.com/Cerenovus)) has to leave. Each night afterwards,
 > the Storyteller chooses someone to be mad using the **Cerenovus**' ability.
 
-> The **Virgin** (who is yet to be nominated) leaves. The next day, a Townsfolk nominates
+> The [**Virgin**](https://wiki.bloodontheclocktower.com/Virgin) (who is yet to be nominated) leaves. The next day, a Townsfolk nominates
 > the **Virgin** and dies.
 
-> The **Vortox** leaves. Each night afterwards, the Storyteller chooses a player to die, and gives
+> The [**Vortox**](https://wiki.bloodontheclocktower.com/Vortox) leaves. Each night afterwards, the Storyteller chooses a player to die, and gives
 > false info to all Townsfolk. On the final day, the **Vortox** is executed. Good wins.
 
 #### Explanation
@@ -95,4 +103,4 @@ A five-player game with a Traveller is too powerful for the good team, since tha
 basically guaranteed to be good, and the number of players who can be the Demon is now four instead of five.
 
 With an Editor in play, every player can have a normal character's ability (including being the Demon!)
-without worring if leaving will guarantee a loss or the use of the **Fiddler**.
+without worring if leaving will guarantee a loss or the use of the [Fiddler](https://wiki.bloodontheclocktower.com/Fiddler).
