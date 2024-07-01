@@ -6,13 +6,13 @@ Custom characters that I've created for my games. Icons for these characters can
 
 ### Detective
 
-"Each night, choose a player (not yourself): learn their character type. If they are a Townsfolk, you are drunk until dawn. If you have selected players from three different character types, lose this ability."
+"Each night, choose two living players: learn one of their character types. If both are Townsfolk, you are drunk until dawn. If you have selected players from all in-play character types, lose this ability."
 
 The Detective can identify people with something to hide, but is paranoid about people who don't.
 
-- If the (sober and healthy) Detective selects an Outsider, Minion, or Demon, they correctly learn that player's character type.
-- If they choose a Townsfolk, they are made drunk, so (probably) learn something other than Townsfolk.
-- Once the Detective has selected players from three different types, they no longer wake up to use their ability.
+- The Detective learns the character type of one of the people they investigate.
+- If both of the people they select are Townsfolk, they are made drunk, so (probably) learn something other than Townsfolk.
+- Once the Detective has selected players from all different types, they no longer wake up to use their ability.
 
 #### Examples
 
