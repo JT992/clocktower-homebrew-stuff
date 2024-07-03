@@ -6,7 +6,7 @@ Custom characters that I've created for my games. Icons for these characters can
 
 ### Detective
 
-"Each night, choose two living players: learn one of their character types. If both are Townsfolk, you are drunk until dawn. If you have selected players from all in-play character types, lose this ability."
+"Each night, choose two living players (not yourself or Travellers): learn one of their character types. If both are Townsfolk, you are drunk until dawn. If you have selected players from all in-play character types, lose this ability."
 
 The Detective can identify people with something to hide, but is paranoid about people who don't.
 
