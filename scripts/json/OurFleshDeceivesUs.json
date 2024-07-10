@@ -1,0 +1,283 @@
+[
+  {
+    "id": "_meta",
+    "name": "Our Flesh Deceives Us",
+    "author": "_hecklord",
+    "almanac": "https://www.bloodstar.xyz/p/hecklord/Shrouded/almanac.html"
+  },
+  {
+    "id": "investigator_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/investigator_shrouded.png",
+    "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
+    "reminders": ["Minion", "Wrong"],
+    "name": "Investigator",
+    "team": "townsfolk",
+    "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+    "firstNight": 17
+  },
+  {
+    "id": "washerwoman_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/washerwoman_shrouded.png",
+    "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
+    "reminders": ["Townsfolk", "Wrong"],
+    "name": "Washerwoman",
+    "team": "townsfolk",
+    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+    "firstNight": 16
+  },
+  {
+    "id": "shugenja_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/shugenja_shrouded.png",
+    "firstNightReminder": "Point in the direction that leads to the Shugenja's closest evil player. If equidistant, point in either direction.",
+    "name": "Shugenja",
+    "team": "townsfolk",
+    "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",
+    "firstNight": 18
+  },
+  {
+    "id": "chambermaid_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/chambermaid_shrouded.png",
+    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, \u2026) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, \u2026) for how many of those players wake tonight for their ability.",
+    "name": "Chambermaid",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "firstNight": 22,
+    "otherNight": 17
+  },
+  {
+    "id": "dreamer_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/dreamer_shrouded.png",
+    "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "name": "Dreamer",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "firstNight": 20,
+    "otherNight": 14
+  },
+  {
+    "id": "fortuneteller_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/fortuneteller_shrouded.png",
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "reminders": ["Red herring"],
+    "name": "Fortune Teller",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+    "firstNight": 19,
+    "otherNight": 13
+  },
+  {
+    "id": "detective_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/detective_shrouded.png",
+    "firstNightReminder": "The Detective points at two living players: if both are Townsfolk, place the Drunk reminder token. The Detective learns one of the selected players' character types. Place the appropriate character type token(s) next to the selected players.",
+    "otherNightReminder": "Do not wake the Detective if they have the No Ability token. Otherwise, the Detective points at two living players: if both are Townsfolk, place the Drunk reminder token. The Detective learns one of the selected players' character types. Place the appropriate character type token(s) next to the selected players. If all in-play types have been learnt, place the No Ability token on the Detective.",
+    "reminders": [
+      "Selected Townsfolk",
+      "Selected Outsider",
+      "Selected Minion",
+      "Selected Demon",
+      "Drunk",
+      "No Ability"
+    ],
+    "name": "Detective",
+    "team": "townsfolk",
+    "ability": "Each night, choose two living players (not yourself or Travellers): learn one of their character types. If both are Townsfolk, you are drunk until dawn. If you have selected players from all in-play character types, lose this ability.",
+    "firstNight": 21,
+    "otherNight": 15
+  },
+  {
+    "id": "oracle_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/oracle_shrouded.png",
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "name": "Oracle",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "otherNight": 16
+  },
+  {
+    "id": "exorcist_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/exorcist_shrouded.png",
+    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
+    "reminders": ["Chosen"],
+    "name": "Exorcist",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+    "otherNight": 8
+  },
+  {
+    "id": "slayer_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/slayer_shrouded.png",
+    "reminders": ["No ability"],
+    "name": "Slayer",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+  },
+  {
+    "id": "philosopher_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/philosopher_shrouded.png",
+    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
+    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
+    "reminders": ["Drunk", "Is the Philosopher"],
+    "name": "Philosopher",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "firstNight": 13,
+    "otherNight": 2
+  },
+  {
+    "id": "cannibal_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/cannibal_shrouded.png",
+    "reminders": ["Poisoned", "Died today"],
+    "name": "Cannibal",
+    "team": "townsfolk",
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution."
+  },
+  {
+    "id": "banshee_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/banshee_shrouded.png",
+    "otherNightReminder": "If the Demon killed the Banshee tonight, place the Has Ability - Two Votes token by the Banshee.",
+    "reminders": ["Has Ability - Two Votes"],
+    "name": "Banshee",
+    "team": "townsfolk",
+    "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination.",
+    "otherNight": 18
+  },
+  {
+    "id": "drunk_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/drunk_shrouded.png",
+    "remindersGlobal": ["Drunk"],
+    "setup": true,
+    "name": "Drunk",
+    "team": "outsider",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+  },
+  {
+    "id": "lunatic_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/lunatic_shrouded.png",
+    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon\u2019s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "reminders": ["Attack 1", "Attack 2", "Attack 3"],
+    "name": "Lunatic",
+    "team": "outsider",
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "firstNight": 11,
+    "otherNight": 7
+  },
+  {
+    "id": "plaguedoctor_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/plaguedoctor_shrouded.png",
+    "otherNightReminder": "If the Plague Doctor died today or tonight, add the Storyteller Ability & Good reminder tokens to them and change their character token to a Minion.",
+    "reminders": ["Storyteller Ability"],
+    "name": "Plague Doctor",
+    "team": "outsider",
+    "ability": "If you die, the Storyteller gains a Minion ability.",
+    "otherNight": 12
+  },
+  {
+    "id": "poisoner_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/poisoner_shrouded.png",
+    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "reminders": ["Poisoned"],
+    "name": "Poisoner",
+    "team": "minion",
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+    "firstNight": 14,
+    "otherNight": 3
+  },
+  {
+    "id": "cerenovus_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/cerenovus_shrouded.png",
+    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "reminders": ["Mad"],
+    "name": "Cerenovus",
+    "team": "minion",
+    "ability": "Each night, choose a player & a good character: they are \u201cmad\u201d they are this character tomorrow, or might be executed.",
+    "firstNight": 15,
+    "otherNight": 4
+  },
+  {
+    "id": "pithag_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/pithag_shrouded.png",
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "name": "Pit-Hag",
+    "team": "minion",
+    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "otherNight": 5
+  },
+  {
+    "id": "scarletwoman_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/scarletwoman_shrouded.png",
+    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
+    "reminders": ["Demon"],
+    "name": "Scarlet Woman",
+    "team": "minion",
+    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don\u2019t count)",
+    "otherNight": 6
+  },
+  {
+    "id": "organgrinder_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/organgrinder_shrouded.png",
+    "reminders": ["About to die"],
+    "name": "Organ Grinder",
+    "team": "minion",
+    "ability": "All players keep their eyes closed when voting & the vote tally is secret. Votes for you only count if you vote."
+  },
+  {
+    "id": "vortox_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/vortox_shrouded.png",
+    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "reminders": ["Dead"],
+    "name": "Vortox",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "otherNight": 9
+  },
+  {
+    "id": "vigormortis_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/vigormortis_shrouded.png",
+    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "reminders": ["Dead", "Has ability", "Poisoned"],
+    "setup": true,
+    "name": "Vigormortis",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [\u22121 Outsider]",
+    "otherNight": 10
+  },
+  {
+    "id": "lleech_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/lleech_shrouded.png",
+    "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",
+    "otherNightReminder": "The Lleech points to a player. That player dies.",
+    "reminders": ["Dead", "Poisoned"],
+    "name": "Lleech",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
+    "firstNight": 12,
+    "otherNight": 11
+  },
+  {
+    "id": "sleeper_shrouded",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Shrouded/sleeper_shrouded.png",
+    "remindersGlobal": ["Is the Sleeper", "Dead"],
+    "setup": true,
+    "name": "Sleeper",
+    "team": "demon",
+    "ability": "You think you are a good character who chooses someone each night, but you are not. Each night*, one player you choose (not yourself) dies. All Minions know you are the Sleeper."
+  },
+  {
+    "id": "plaguedscarletw_shrouded",
+    "name": "Plague D. - Scarlet W.",
+    "team": "jinxes",
+    "ability": "If the Plague Doctor dies, a living Minion gains the Scarlet Woman ability in addition to their own ability, and learns this."
+  },
+  {
+    "id": "lleechslayer_shrouded",
+    "name": "Lleech - Slayer",
+    "team": "jinxes",
+    "ability": "If the Slayer slays the Lleech's host, the host dies."
+  }
+]
