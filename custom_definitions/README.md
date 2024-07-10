@@ -73,6 +73,40 @@ The Chatterbox kills players who lie.
 > During the day, the **Town Crier** says they learnt Yes. This is true, so they don't die tonight.
 > If the **Town Crier** said that a Minion nominated last night, they would be lying, so they might have died in the night.
 
+## Demons
+
+### Sleeper
+
+"You think you are a good character who chooses someone each night, but you are not. Each night\*, one player you choose (not yourself) dies. All Minions know you are the Sleeper."
+
+The Sleeper doesn't know that they are the Demon.
+
+- The Sleeper draws a Townsfolk or Outsider that chooses players or characters in the night, but they are actually the Sleeper.
+- After the first night, one of the players the Sleeper selects each night using the good ability they think they have dies.
+- The Sleeper cannot die to their own ability.
+- All Minions learn who the Sleeper is, and that they are the Sleeper.
+- The Sleeper does not wake to learn the Minions or bluffs.
+- The good ability the Sleeper thinks they have does not work, much like the Drunk or Marionette.
+- The Sleeper registers as evil and as the Sleeper.
+
+#### Optional rules
+
+- One Minion can receive the Demon bluffs instead of the Sleeper.
+
+#### Examples
+
+> Oli is the **Sleeper** who drew the [**Chambermaid**](https://wiki.bloodontheclocktower.com/Chambermaid) token.
+> On the first night, he chooses two players, and learns information that may or may not be correct.
+> On each subsequent night, the same happens, but one of the players he chooses dies.
+
+> The **Sleeper** draws the [**Gambler**](https://wiki.bloodontheclocktower.com/Gambler) token.
+> On the second night, they "gamble" Fin as the [**Cannibal**](https://wiki.bloodontheclocktower.com/Cannibal),
+> so either Fin or the **Cannibal** player dies tonight.
+
+> The **Sleeper** draws the [**Snake Charmer**](https://wiki.bloodontheclocktower.com/Snake_Charmer) token.
+> On the fourth night, they decide to "snake charm" themselves.
+> No-one dies, because the Sleeper cannot attack themselves in this way.
+
 ## Fabled
 
 ### Editor
