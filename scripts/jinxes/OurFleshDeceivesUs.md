@@ -6,3 +6,7 @@
 
 **Slayer** + **Lleech**:
 - If the Slayer slays the Lleech's host, the host dies.
+
+**Sleeper** + **Lunatic**:
+- A Minion learns who the Lunatic is if the Demon is a Sleeper. The Lunatic's choices do not get shared.
+- The Lunatic cannot be a Sleeper (they cannot draw a good character token).
