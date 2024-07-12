@@ -29,6 +29,69 @@ The Detective can identify people with something to hide, but is paranoid about 
 > It is the fourth night. So far, the Detective has learnt Outsider, Demon, Minion.
 > The Detective still wakes up, because they have chosen three Townsfolk.
 
+### Augur
+
+"Each night, choose two non-Demon characters: learn if at least one is in play."
+
+The Augur can determine the existence of characters in the game.
+
+- The Augur learns if either or both of the characters they choose are in play.
+- The Augur is not allowed to choose Demon characters.
+
+#### Examples
+
+> On the first night, the **Augur** chooses the [**Shugenja**](https://wiki.bloodontheclocktower.com/Shugenja)
+> and the [**Moonchild**](https://wiki.bloodontheclocktower.com/Moonchild).
+> They learn Yes, because there is a **Moonchild**.
+
+> On the third night, the **Augur** chooses the [**Vigormortis**](https://wiki.bloodontheclocktower.com/Vigormortis)
+> as one of their picks. The Storyteller shakes their head to prompt them to choose someone else,
+> because the **Augur** cannot choose Demon characters.
+
+### Haruspex
+
+"Each night, if at least a third of the players are dead, choose a dead player: perform that character's night action (without affecting the board). If they are evil, you are poisoned until dawn."
+
+The Haruspex receives visions of the dead players they investigate.
+
+- If at least a third (rounded UP) of players are dead, the Haruspex chooses a dead player.
+- The Haruspex doesn't "gain the ability", they simply learn information about what that player would have done/learnt.
+- If the player they choose is evil, they are poisoned, so the action they perform is arbitrary.
+
+#### Examples
+
+> On the first night, the [**Investigator**](https://wiki.bloodontheclocktower.com/Investigator)
+> correctly learns that either Oli or Ewan is the [**Cerenovus**](https://wiki.bloodontheclocktower.com/Cerenovus).
+> Later in the game, the **Haruspex** chooses the (now dead) **Investigator** player. The Haruspex learns
+> "Amy, Elle, [**Organ Grinder**](https://wiki.bloodontheclocktower.com/Organ_Grinder)".
+> Neither Amy nor Elle are the **Organ Grinder** (who is not-in-play):
+> the Haruspex has just learnt "plausible" information for the role they chose.
+
+> The **Haruspex** chooses the dead [**Mezepheles**](https://wiki.bloodontheclocktower.com/Mezepheles) and so is poisoned.
+> The Mezepheles was bluffing [**Dreamer**](https://wiki.bloodontheclocktower.com/Dreamer),
+> so the Storyteller decides to prompt the Haruspex to choose a player and then tells them a good and evil role.
+
+### Necromancer
+
+"Once per game, at night, if at least a quarter of the players are dead, choose a dead player: if they are good, you die and they become a living (and possibly evil) Necromancer."
+
+The Necromancer can revive good players, at the cost of their own life... and (possibly) the chosen player's conscience.
+
+- If at least a quarter (rounded UP) of players are dead, the Necromancer can choose a dead player.
+- If the player they choose is good, the old Necromancer dies and the chosen player becomes a living Necromancer.
+- If this happens, the selected player's alignment may also switch to evil.
+
+#### Examples
+
+> The **Necromancer** uses their ability on the first night they can.
+> They choose Corry, the dead [**Artist**](https://wiki.bloodontheclocktower.com/Artist).
+> The original Necromancer dies, because Corry is good. Corry becomes a living evil Necromancer.
+> The night after, Corry chooses Robin, the [**Clockmaker**](https://wiki.bloodontheclocktower.com/Clockmaker).
+> Corry dies, and Robin becomes a living good Necromancer.
+
+> The **Necromancer** chooses the [**Poisoner**](https://wiki.bloodontheclocktower.com/Poisoner) player.
+> This player is evil, so nothing happens. The Necromancer loses their ability.
+
 ## Outsiders
 
 ### Blabbermouth
