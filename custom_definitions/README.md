@@ -50,6 +50,8 @@ The Augur can determine the existence of characters in the game.
 
 ### Haruspex
 
+**THIS CHARACTER HAS NOT BEEN TESTED!** The Haruspex's ability needs some serious balancing before it's ready to work.
+
 "Each night, if at least a third of the players are dead, choose a dead player: perform that character's night action (without affecting the board). If they are evil, you are poisoned until dawn."
 
 The Haruspex receives visions of the dead players they investigate.
