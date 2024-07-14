@@ -10,3 +10,7 @@
 **Sleeper** + **Lunatic**:
 - A Minion learns who the Lunatic is if the Demon is a Sleeper. The Lunatic's choices do not get shared.
 - The Lunatic cannot be a Sleeper (they cannot draw a good character token).
+
+**Sleeper** + **Scarlet Woman**:
+- If the Sleeper dies and the Scarlet Woman becomes the Demon, the Scarlet Woman
+  registers as a Demon from now on but remains the Scarlet Woman. They wake each night when the Scarlet Woman should wake.
