@@ -13,4 +13,4 @@
 
 **Sleeper** + **Scarlet Woman**:
 - If the Sleeper dies and the Scarlet Woman becomes the Demon, the Scarlet Woman
-  registers as a Demon from now on but remains the Scarlet Woman. They wake each night to kill when the Scarlet Woman should wake.
+  registers as a Demon from now on but remains the Scarlet Woman. They wake each night to kill when the original Sleeper would wake.
