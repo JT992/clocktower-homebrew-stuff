@@ -20,4 +20,12 @@ you are all excellent guinea pigs:
 - WolfishMass
 - Captain Birdseye
 - lxguardian
-- 
+- mimi
+- soggyshampoo
+- Linak
+- Bojji
+
+Extra thanks to HinglJ who helped create and refine all the homebrew roles.
+
+I use the [Official Script Tool](https://script.bloodontheclocktower.com/)
+and [Bloodstar Clocktica](https://www.bloodstar.xyz) to design my scripts and colourise my icons.
