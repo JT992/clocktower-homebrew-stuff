@@ -104,7 +104,7 @@ The Blabbermouth flips true info and false info.
 
 - If the Blabbermouth chooses someone who should learn true info, they instead learn something false.
 - If they choose someone who should learn false info, they instead learn something true.
-- If they choose someone drunk or poisoned, the Storyteller can decide (as usual).
+- Like the [**Vortox**](https://wiki.bloodontheclocktower.com/Vortox), drunk or poisoned players chosen by the Blabbermouth must still learn false info.
 
 #### Examples
 
