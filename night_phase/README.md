@@ -10,4 +10,5 @@ Designs of the info cards used in the night phase, along with some extra cards t
 - **Green**: Abilities (Use Your Ability?, Choose a Player/Character, This Character Selected You)
 - **Yellow**: Flowergirl & Town Crier (Did You Vote/Nominate Today?)
 - **Pink**: Heads & Thumbs (Good, Evil, Yes, No)
+- **Fern**: Character Types (Townsfolk, Outsider, Minion, Demon)
 - **Navy**: Numbers (Zero to Five)
