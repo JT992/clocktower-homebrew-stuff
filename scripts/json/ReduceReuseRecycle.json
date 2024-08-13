@@ -1,0 +1,277 @@
+[
+  {
+    "id": "_meta",
+    "name": "Reduce Reuse Recycle",
+    "author": "Oli",
+    "almanac": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/almanac.html"
+  },
+  {
+    "id": "librarian_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/librarian_reduce_reuse_recycle.png",
+    "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
+    "reminders": ["Outsider", "Wrong"],
+    "name": "Librarian",
+    "team": "townsfolk",
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "firstNight": 16
+  },
+  {
+    "id": "grandmother_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/grandmother_reduce_reuse_recycle.png",
+    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "otherNightReminder": "If the Grandmother\u2019s grandchild was killed by the Demon tonight: The Grandmother dies.",
+    "reminders": ["Grandchild"],
+    "name": "Grandmother",
+    "team": "townsfolk",
+    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "firstNight": 18,
+    "otherNight": 13
+  },
+  {
+    "id": "bountyhunter_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/bountyhunter_reduce_reuse_recycle.png",
+    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "otherNightReminder": "If the known evil player has died, point to another evil player. ",
+    "reminders": ["Known"],
+    "setup": true,
+    "name": "Bounty Hunter",
+    "team": "townsfolk",
+    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "firstNight": 22,
+    "otherNight": 17
+  },
+  {
+    "id": "shugenja_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/shugenja_reduce_reuse_recycle.png",
+    "firstNightReminder": "Point in the direction that leads to the Shugenja's closest evil player. If equidistant, point in either direction.",
+    "name": "Shugenja",
+    "team": "townsfolk",
+    "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",
+    "firstNight": 20
+  },
+  {
+    "id": "empath_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/empath_reduce_reuse_recycle.png",
+    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "name": "Empath",
+    "team": "townsfolk",
+    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "firstNight": 17,
+    "otherNight": 14
+  },
+  {
+    "id": "general_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/general_reduce_reuse_recycle.png",
+    "firstNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
+    "otherNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
+    "name": "General",
+    "team": "townsfolk",
+    "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+    "firstNight": 25,
+    "otherNight": 19
+  },
+  {
+    "id": "dreamer_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/dreamer_reduce_reuse_recycle.png",
+    "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "name": "Dreamer",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "firstNight": 19,
+    "otherNight": 15
+  },
+  {
+    "id": "villageidiot_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/villageidiot_reduce_reuse_recycle.png",
+    "firstNightReminder": "Choose which Village Idiot is drunk. Wake all Village Idiots in sequence. Each points to a player and learns thumbs up or down for that player's alignment.",
+    "otherNightReminder": "Wake all Village Idiots in sequence. Each points to a player and learns thumbs up or down for that player's alignment.",
+    "reminders": ["Drunk"],
+    "setup": true,
+    "name": "Village Idiot",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+    "firstNight": 21,
+    "otherNight": 16
+  },
+  {
+    "id": "cultleader_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/cultleader_reduce_reuse_recycle.png",
+    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "name": "Cult Leader",
+    "team": "townsfolk",
+    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "firstNight": 23,
+    "otherNight": 18
+  },
+  {
+    "id": "exorcist_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/exorcist_reduce_reuse_recycle.png",
+    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
+    "reminders": ["Chosen"],
+    "name": "Exorcist",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+    "otherNight": 6
+  },
+  {
+    "id": "gossip_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/gossip_reduce_reuse_recycle.png",
+    "otherNightReminder": "If the Gossip\u2019s public statement was true: Choose a player not protected from dying tonight. That player dies.",
+    "reminders": ["Dead"],
+    "name": "Gossip",
+    "team": "townsfolk",
+    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+    "otherNight": 11
+  },
+  {
+    "id": "pacifist_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/pacifist_reduce_reuse_recycle.png",
+    "name": "Pacifist",
+    "team": "townsfolk",
+    "ability": "Executed good players might not die."
+  },
+  {
+    "id": "magician_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/magician_reduce_reuse_recycle.png",
+    "name": "Magician",
+    "team": "townsfolk",
+    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
+  },
+  {
+    "id": "ogre_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/ogre_reduce_reuse_recycle.png",
+    "firstNightReminder": "The Ogre points to a player and becomes that player's alignment without learning which. Place a Good or Evil reminder token as appropriate.",
+    "name": "Ogre",
+    "team": "outsider",
+    "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",
+    "firstNight": 24
+  },
+  {
+    "id": "zealot_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/zealot_reduce_reuse_recycle.png",
+    "name": "Zealot",
+    "team": "outsider",
+    "ability": "If there are 5 or more players alive, you must vote for every nomination."
+  },
+  {
+    "id": "lunatic_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/lunatic_reduce_reuse_recycle.png",
+    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon\u2019s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "reminders": ["Attack 1", "Attack 2", "Attack 3"],
+    "name": "Lunatic",
+    "team": "outsider",
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "firstNight": 11,
+    "otherNight": 5
+  },
+  {
+    "id": "hatter_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/hatter_reduce_reuse_recycle.png",
+    "otherNightReminder": "If the Hatter died today or tonight, wake each Minion and Demon (together). They may choose to change their Minion and Demon characters.",
+    "reminders": ["Tea Party Tonight"],
+    "name": "Hatter",
+    "team": "outsider",
+    "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be.",
+    "otherNight": 12
+  },
+  {
+    "id": "summoner_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/summoner_reduce_reuse_recycle.png",
+    "firstNightReminder": "Place the Night 1 reminder next to the Summoner.",
+    "otherNightReminder": "\u00b7 If the Summoner has a Night 1 reminder, replace it with a Night 2 reminder. \u00b7 If the Summoner has a Night 2 reminder, replace it with a Night 3 reminder. The Summoner points to a player and a Demon icon. That player is now the evil Demon.",
+    "reminders": ["Night 1", "Night 2", "Night 3"],
+    "setup": true,
+    "name": "Summoner",
+    "team": "minion",
+    "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+    "firstNight": 12,
+    "otherNight": 4
+  },
+  {
+    "id": "pithag_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/pithag_reduce_reuse_recycle.png",
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "name": "Pit-Hag",
+    "team": "minion",
+    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "otherNight": 2
+  },
+  {
+    "id": "mezepheles_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/mezepheles_reduce_reuse_recycle.png",
+    "firstNightReminder": "Show the Mezepheles their secret word.",
+    "otherNightReminder": "Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.",
+    "reminders": ["Turns evil", "No ability"],
+    "name": "Mezepheles",
+    "team": "minion",
+    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night.",
+    "firstNight": 14,
+    "otherNight": 3
+  },
+  {
+    "id": "marionette_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/marionette_reduce_reuse_recycle.png",
+    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "remindersGlobal": ["Is the Marionette"],
+    "setup": true,
+    "name": "Marionette",
+    "team": "minion",
+    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]",
+    "firstNight": 13
+  },
+  {
+    "id": "pukka_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/pukka_reduce_reuse_recycle.png",
+    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies. ",
+    "reminders": ["Poisoned", "Dead"],
+    "name": "Pukka",
+    "team": "demon",
+    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+    "firstNight": 15,
+    "otherNight": 8
+  },
+  {
+    "id": "imp_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/imp_reduce_reuse_recycle.png",
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
+    "reminders": ["Dead"],
+    "name": "Imp",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "otherNight": 7
+  },
+  {
+    "id": "vigormortis_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/vigormortis_reduce_reuse_recycle.png",
+    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "reminders": ["Dead", "Has ability", "Poisoned"],
+    "setup": true,
+    "name": "Vigormortis",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [\u22121 Outsider]",
+    "otherNight": 10
+  },
+  {
+    "id": "fanggu_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/fanggu_reduce_reuse_recycle.png",
+    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "reminders": ["Dead", "Once"],
+    "setup": true,
+    "name": "Fang Gu",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "otherNight": 9
+  },
+  {
+    "id": "enameledghost_reduce_reuse_recycle",
+    "image": "https://www.bloodstar.xyz/p/hecklord/Reduce_Reuse_Recycle/enameledghost_reduce_reuse_recycle.png",
+    "name": "Enameled Ghost",
+    "team": "fabled",
+    "ability": "If the evil players equal or outnumber the good players, executions fail if only evil votes."
+  }
+]
