@@ -75,8 +75,8 @@ A Necromancer who stays alive for enough days can jump Fang Gu-style to any dead
 ## The Self is a Prison
 
 This script features the Neurologist, the most experimental and powerful of my homebrew characters.
-The Neurologist wires together the minds of two good players each night, so that they wake together, giving them easy confirmation.
-Beware the fatal mistake though: choose an evil player: and they learn who you are!
+The Neurologist wires together the minds of two good players each night so that they wake together, giving them easy confirmation.
+Beware the fatal mistake though: choose an evil player, and they learn who you are!
 
 **Complexity**: really quite
 
@@ -85,7 +85,7 @@ Beware the fatal mistake though: choose an evil player: and they learn who you a
 ## Discontent Looming
 
 Discontent Looming is a much simpler demon hunt than most of my other scripts.
-Like Misfortune Stewing, it features exclusively release characters: with one major exception.
+Like Misfortune Stewing, it features exclusively release characters - with one major exception.
 
 **Complexity**: a little more than Misfortune Stewing, but not much
 
